@@ -1,3 +1,5 @@
-frame_id,source,phenomenon,affected_field,effect_on_label
-S01_ir,IR_sim,"(ví dụ) không thấy dây an toàn trên áo tối",seatbelt,"giữ unknown; RGB cùng cảnh cũng không thấy"
-D03,real_IR,"(ví dụ) đốm phản xạ LED trên tròng kính che mắt phải",right_eye_state,"ghi unknown, không ghi closed"
+frame,source,observation,field,decision
+S01_ir,IR_sim,Vùng ghế trẻ em và đồ vật trên ảnh IR mô phỏng thiếu màu sắc và chi tiết tương phản như ảnh RGB,child_seat / object,"Đối chiếu với S01_rgb và peer; cập nhật box/nhãn theo guideline trên export_final_v2.zip"
+S03_ir,IR_sim,Ảnh IR mô phỏng chỉ phản ánh kênh/đèn mô phỏng không phải NIR thật,infant_seat / object,"Giữ đúng quy tắc gán theo hình dạng/ngữ cảnh và đồng bộ với đối chiếu peer; không suy đoán hiện tượng quang học của NIR thật"
+D01,real_IR,Ảnh NIR thật xoay ~90 độ; không có thông tin màu sắc và một số vùng tối/mờ khó phân biệt chi tiết nhỏ,face / face13 / hand,"Gán theo hướng người thật (mắt trái có y lớn hơn mắt phải) và dùng unknown/occluded/outside khi không rõ thay vì đoán"
+D02,real_IR,Ảnh NIR thật xoay ~90 độ; khu vực mắt/kính hoặc điểm mốc trên mặt có thể bị che/nhiễu vùng tối,face / face13 / glasses,"Kiểm tra kỹ từng thuộc tính và mốc mặt; nếu không đủ rõ thì đặt unknown hoặc đánh occluded/outside đúng quy định"

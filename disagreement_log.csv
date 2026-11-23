@@ -1,0 +1,16 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+S01_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Kiểm tra box child_seat trên S01_ir theo guideline và cập nhật nếu cần vào export_final_v2.zip
+S01_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu vật thể trên S01_ir (tách box object nếu đúng) và cập nhật export_final_v2.zip
+S01_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ box child_seat trên S01_rgb và kiểm tra seat/occupied theo xe
+S03_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1; 4.8,Đối chiếu infant_seat trên S03_ir theo guideline và cập nhật nếu cần
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu box object trên S03_ir và cập nhật nếu cần
+S03_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1; 4.8,Đối chiếu infant_seat trên S03_rgb (seat và facing) và cập nhật nếu cần
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu box object trên S03_rgb và cập nhật nếu cần
+S05_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1; 4.8,Đối chiếu infant_seat trên S05_ir theo guideline và cập nhật nếu cần
+S05_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu box object trên S05_ir và cập nhật nếu cần
+S05_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1; 4.8,Đối chiếu infant_seat trên S05_rgb và cập nhật nếu cần
+S05_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu box object trên S05_rgb và cập nhật nếu cần
+S08_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu box object trên S08_ir và cập nhật nếu cần
+S08_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu box child_seat trên S08_ir và cập nhật nếu cần
+S08_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu box child_seat trên S08_rgb và cập nhật nếu cần
+S08_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Đối chiếu box object trên S08_rgb và cập nhật nếu cần
